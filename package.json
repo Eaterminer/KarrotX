@@ -1,0 +1,17 @@
+{
+  "name": "karrotx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./*.html",
+    "predeploy": "rm -rf dist && parcel build ./*.html --public-url "//paste here your ENTIRE REPO URL, comprehensive of http/https part"",
+    "deploy": "gh-pages -d dist"
+},,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.8.3"
+  }
+}
